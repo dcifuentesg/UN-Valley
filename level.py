@@ -130,10 +130,10 @@ class Level:
 			self.soil_layer.water_all()
 
 		# apples on the trees
-		for tree in self.tree_sprites.sprites():
-			for apple in tree.apple_sprites.sprites():
-				apple.kill()
-			tree.create_fruit()
+		# for tree in self.tree_sprites.sprites():
+		# 	for apple in tree.apple_sprites.sprites():
+		# 		apple.kill()
+		# 	tree.create_fruit()
 
 		self.sky.start_color = [255,255,255]
 
